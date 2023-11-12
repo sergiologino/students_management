@@ -26,7 +26,7 @@ public class StudentManagementApplication implements CommandLineRunner {
     public static void main(String[] args) {
 //        SpringApplication.run(StudentManagementApplication.class, args);
             SpringApplication app = new SpringApplication(StudentManagementApplication.class);
-            app.setBannerMode(Banner.Mode.OFF);
+//            app.setBannerMode(Banner.Mode.OFF);
             System.out.println("STARTING A RUN METHOD");
             app.run(args);
             System.out.println("Application has started.");
